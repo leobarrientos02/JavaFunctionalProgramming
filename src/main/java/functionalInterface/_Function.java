@@ -3,6 +3,12 @@ package functionalInterface;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
+/*
+Function<T> = Represents a function that accepts one argument
+              and produces a result.
+BiFunction<T,U> = Represents a function that accepts two arguments
+                  and produces a result.
+*/
 public class _Function {
 
     public static void main(String[] args) {

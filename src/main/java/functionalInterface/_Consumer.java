@@ -3,6 +3,12 @@ package functionalInterface;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
+/*
+Consumer<T> = Represents an operation that accepts a single input argument
+              and returns no result.
+BiConsumer<T,U> = Represents an operations that accepts two input arguments
+                  and returns no result.
+*/
 public class _Consumer {
     public static void main(String[] args) {
 
