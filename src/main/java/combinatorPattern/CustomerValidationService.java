@@ -22,4 +22,5 @@ public class CustomerValidationService {
                 isPhoneNumberValid(customer.getPhone()) &&
                 isAdult(customer.getDob());
     }
+
 }
