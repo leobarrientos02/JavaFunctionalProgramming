@@ -2,7 +2,7 @@ package finalSection;
 
 import java.util.function.Consumer;
 
-public class Main {
+public class Callbacks {
     public static void main(String[] args) {
         // Callback
         hello("Leonel", "Barrientos", null);
