@@ -28,6 +28,11 @@ public class _Stream {
                 .map(person -> person.gender)
                 .collect(Collectors.toSet())
                 .forEach(System.out::println);
+
+        boolean containsOnlyFemales = people.stream()
+                .allMatch(person -> FEMALE.equals(person.gender));
+
+        System.out.println(containsOnlyFemales);
     }
     static class Person {
         private final String name;
